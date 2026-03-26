@@ -185,8 +185,6 @@ npm run dev
   
   Reusable components drastically reduces development time. For current scope, only ErrorState and Loader are added into shared reusable components. But for actual dashboard frontend system shall have standardized resusable components which could be usedd across different modules of dashboard. 
 
-
-
 ---
 
 ---
@@ -199,3 +197,7 @@ npm run dev
 * Why minimal data transformation: Returning API Data looks good in terms of data structuring. But it would be good to have data transformation utils function created which transforms API response into frontend required parameters. That isolates frontend variable dependency on API. Any changes to API response needs changes to be done for utils function. Rest stays same. Thereby, increases productivity and maintainability.
 
 ---
+
+![Weather Dashboard](./public/Dark.png)
+
+![Weather Dashboard](./public/Light.png)
